@@ -1,0 +1,27 @@
+{
+  "name": "grunt-reportportal-link",
+  "version": "0.0.1",
+  "description": "Add target attribute to links in reportportal documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f3arnil/grunt-reportportal-link.git"
+  },
+  "keywords": [
+    "grunt",
+    "reportportal",
+    "documentation"
+  ],
+  "author": "Alex Vasilyeu\u001b[D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f3arnil/grunt-reportportal-link/issues"
+  },
+  "homepage": "https://github.com/f3arnil/grunt-reportportal-link#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0"
+  }
+}
