@@ -16,7 +16,7 @@ module.exports = function (params, callback) {
         content: ".js-content"
     };
 
-    $(thisOptions.content).find('.b-docs__wrapper').each(function (i, elem) {
+    $(thisOptions.content).find('.b-docs__wrapper').children().each(function (i, elem) {
         if ($(elem).hasClass('docs-heading')) return;
         if ($(elem).attr('id') === 'toc') return;
         $(elem).find('a').attr('target', '_blank');

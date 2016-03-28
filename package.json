@@ -1,6 +1,6 @@
 {
   "name": "grunt-reportportal-link",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Add target attribute to links in reportportal documentation",
   "main": "index.js",
   "scripts": {
